@@ -12,6 +12,7 @@ Note :
 Instructions to run on Intellij :
 
 1. Install scala plugin for intellij
+    https://plugins.jetbrains.com/plugin/1347-scala
 2. Import the project into ide.
 3. Open sbt shell in intellij and type run
 4. The program reads data.csv placed in directory [src/main/resources/csv_files/data.csv] file and prints each record in that file in json format.
@@ -23,6 +24,7 @@ Open sbt shell in intellij and type test
 Instructions to run in terminal in Mac/Linux :
 
 1. Install sbt 1.3.10 
+    https://www.scala-sbt.org/download.html
 2. git clone https://github.com/sumitnekar/csv-parser.git
 3. cd csv-parser
 4. sbt compile
