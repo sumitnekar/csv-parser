@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "FloorAccessEvent",
+  "namespace": "com.assignment.event.model",
+  "doc": "Floor access events",
+  "fields": [
+    {
+      "name": "person_id",
+      "doc": "person id",
+      "type": "string"
+    },
+    {
+      "name": "datetime",
+      "doc": "date time",
+      "type": "string"
+    },
+    {
+      "name": "floor_level",
+      "doc": "floor level",
+      "type": "int"
+    },
+    {
+      "name": "building",
+      "doc": "building",
+      "type": "string"
+    }
+  ]
+}
