@@ -14,7 +14,7 @@ trait FloorAccessEventJsonProtocol extends DefaultJsonProtocol {
 }
 
 
-//Converts contents of give csv file to json
+//Converts contents of given csv file to json
 class CsvProcessor extends FloorAccessEventJsonProtocol {
 
   def convertCsvToJson(directoryPath: String): Try[List[String]] = {
