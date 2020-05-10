@@ -31,3 +31,7 @@ Instructions to run in terminal in Mac/Linux :
 5. sbt test
 6. sbt run
 
+
+CSV parsing using flink :
+
+ com.assignment.csv.processor.FlinkCsvProcessor uses flink's data set api to parse csv file.
